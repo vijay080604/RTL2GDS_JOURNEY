@@ -1,6 +1,3 @@
-# RTL2GDS_JOURNEY
-Its my journey towards learning through SOC tapeout program 
-
 <h1 align="center">✨ RTL2GDS_JOURNEY ✨</h1>
 
 <p align="center">
@@ -30,21 +27,6 @@ My goal is to document everything in a clean, interactive way so anyone can foll
 - 🔧 Master open-source tools like **Yosys, OpenLane, Magic, Netgen**  
 - 📑 Maintain detailed notes, errors & fixes  
 - 🌍 Share my progress with the VLSI community  
-
----
-
-## 📅 Weekly Progress Tracker
-
-| Week | Focus | Status | 🚀 Highlights |
-|------|-------|--------|--------------|
-| 0️⃣ | Setup & Tools | ✅ Done | Installed Yosys, OpenLane, Magic |
-| 1️⃣ | RTL Design & Simulation | 🔄 In Progress | Writing & testing Verilog modules |
-| 2️⃣ | Synthesis (Yosys) | ⬜ Pending | Map RTL → Netlist |
-| 3️⃣ | Floorplanning | ⬜ Pending | Explore die/core layout |
-| 4️⃣ | Placement & Routing | ⬜ Pending | Run OpenLane PnR flow |
-| 5️⃣ | CTS (Clock Tree Synthesis) | ⬜ Pending | Buffer insertion & clock skew fixes |
-| … | … | … | … |
-| 🔟 | Mid-Review | ⬜ Planned | Summarize learnings so far |
 
 ---
 
