@@ -1,4 +1,4 @@
-<h1 align="center">✨ RTL2GDS_JOURNEY ✨</h1>
+1<h1 align="center">✨ RTL2GDS_JOURNEY ✨</h1>
 
 <p align="center">
   <b>My 20-Week Journey in the RISC-V Reference SoC Tapeout Program</b><br>
@@ -30,13 +30,3 @@ My goal is to document everything in a clean, interactive way so anyone can foll
 
 ---
 
-## 🗂️ Repo Structure
-```plaintext
-RTL2GDS_JOURNEY/
-├── Week00_Setup/
-├── Week01_RTL_Design/
-├── Week02_Synthesis/
-├── Week03_Physical_Design/
-├── Notes/          # Problems faced, solutions, tricks
-├── Results/        # Reports, logs, screenshots
-└── README.md
