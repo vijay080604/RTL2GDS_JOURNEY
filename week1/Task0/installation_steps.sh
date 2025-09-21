@@ -1,27 +1,31 @@
-#!/bin/bash
-# Tool Installation Script
+# Task 0: Tool Installation and Verification
 
-# Update system
-sudo apt-get update
+## 📌 Objective
+To install and verify the required tools for the RISC-V SoC Tapeout program.
 
-# Install dependencies
-sudo apt-get install build-essential clang bison flex \
-    libreadline-dev gawk tcl-dev libffi-dev git \
-    graphviz xdot pkg-config python3 \
-    libboost-system-dev libboost-python-dev \
-    libboost-filesystem-dev zlib1g-dev -y
+---
 
-# Install Yosys
-git clone https://github.com/YosysHQ/yosys.git
-cd yosys
-git submodule update --init --recursive
-make config-gcc
-make
-sudo make install
-cd ..
+## 🛠 Tools Used
+### 1. Yosys
+- Purpose: Open-source framework for RTL synthesis.
+- Use: Converts Verilog HDL code into a gate-level netlist.
 
-# Install Iverilog
-sudo apt-get install iverilog -y
+### 2. Icarus Verilog (Iverilog)
+- Purpose: Open-source Verilog simulation tool.
+- Use: Used for compiling and simulating Verilog code.
 
-# Install GTKWave
-sudo apt-get install gtkwave -y
+### 3. GTKWave
+- Purpose: Waveform viewer.
+- Use: Visualizes output waveforms from simulation.
+
+---
+
+## ✅ Verification Screenshots
+- Yosys installation check
+  ![Yosys Installed](Images/yosys_done.png)
+
+- Iverilog installation check
+  ![Iverilog Installed](Images/iverilog_done.png)
+
+- GTKWave installation check
+  ![GTKWave Installed](Images/gtkwave_done.png)

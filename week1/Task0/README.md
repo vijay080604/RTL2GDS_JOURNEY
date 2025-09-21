@@ -22,15 +22,10 @@ To install and verify the required tools for the RISC-V SoC Tapeout program.
 
 ## ✅ Verification Screenshots
 - *Yosys installation check*
-  ![Yosys Installed](images/yosys.png)
-
-
+  ![Yosys Installed](Images/yosys.png)
 
 - *Iverilog installation check*
-  ![Iverilog Installed](images/iverilog.png)
+  ![Iverilog Installed](Images/iverilog.png)
 
 - *GTKWave installation check*
-
-  ![GTKWave Installed](images/gtkwave.png)
-
-
+  ![GTKWave Installed](Images/gtkwave.png)
